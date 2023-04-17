@@ -1,14 +1,17 @@
 # Docker Dev AMP and SSL 
 <hr>
 
-**Clone com modificações de >> [Erykai/docker-php](https://github.com/Erykai/docker-php)  -->[ LINK do Vídeo original ](https://www.youtube.com/watch?v=4vcFGtyl8Xk) **
+**Clone com modificações de >> [Erykai/docker-php](https://github.com/Erykai/docker-php)  -->[ LINK do Vídeo original ](https://www.youtube.com/watch?v=4vcFGtyl8Xk)**
 
 <hr>
 
-Ambiente prático para laboratório de várias versões PHP Docker:
+Ambiente prático para laboratório de várias versões PHP com Docker:
+
 **PHP5.6, PHP 7.0, PHP7.2, PHP7.3, PHP7.4, PHP8.0 e PHP8.1**
+
 com **Apache, MariaDB 10 And PhpMyAdmin**.
-Todas com **xdebug, sendmail, libpng-dev, libzip-dev, zlib1g-dev, mysqli, pdo, imagick and gd **
+
+Todas com **xdebug, sendmail, libpng-dev, libzip-dev, zlib1g-dev, mysqli, pdo, imagick and gd**
 
 <hr>
 
@@ -21,9 +24,13 @@ Ex.: `docker compose -f 81.yml up -d` para rodar o **PHP 8.1**
 
 <hr>
 
+**LINKS do VirtualHost: `lvh.me`**
+
+<h5>https://lvh.me:9443 PHP</h5>  
+
+<h5>http://lvh.me:9016 PhpMyAdmin</h5>
+
 **Diretório de trabalho >> `/public_html`**
-<h5>https://lvh.me:9443 PHP</h5>  <h5>http://lvh.me:9016 PhpMyAdmin</h5>
-**LINKS do VirtualHost: `lvh.me` **
 
 **Usuário e senha do DB MySQL **
 
@@ -35,7 +42,7 @@ MYSQL_ROOT_PASSWORD = root
 
 ```
 
-**Portas usadas salvas no arquivo >> `.env` **
+**Portas usadas salvas no arquivo >> `.env`**
 
 ```bash
 PORT_DB=9306
